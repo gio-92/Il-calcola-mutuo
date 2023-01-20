@@ -1,0 +1,80 @@
+.il-calcola-mutuo-container {
+    margin: 20px;
+    max-width: 100%;
+}
+
+.il-calcola-mutuo-container table th,
+.il-calcola-mutuo-container table td {
+    border-radius: 4px;
+}
+
+form.il-calcola-mutuo {
+    display: flex;
+    flex-direction: column;
+}
+
+form.il-calcola-mutuo label {
+    font-weight: bold;
+}
+
+form.il-calcola-mutuo input[type=text],
+form.il-calcola-mutuo select {
+    width: 300px;
+    max-width: 100%;
+    padding: 12px 12px;
+    margin: 8px 0;
+    display: inline-block;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+    box-sizing: border-box;
+}
+
+form.il-calcola-mutuo button {
+    width: 300px;
+    max-width: 100%;
+    background-color: #4caf50;
+    color: white;
+    padding: 14px 20px;
+    margin: 8px 0;
+    border: none;
+    border-radius: 4px;
+    cursor: pointer;
+    font-weight: bold;
+}
+
+form.il-calcola-mutuo button:hover {
+    background-color: #45a049;
+}
+
+#il-calcola-mutuo-risultati {
+    margin: 10px 0 30px 0;
+}
+
+#il-calcola-mutuo-tabella-ammortamento {
+    font-family: Arial, Helvetica, sans-serif;
+    border-collapse: collapse;
+    width: 100%;
+}
+
+#il-calcola-mutuo-tabella-ammortamento td,
+#il-calcola-mutuo-tabella-ammortamento th {
+    border: 1px solid #ddd;
+    padding: 8px;
+}
+
+#il-calcola-mutuo-tabella-ammortamento tr:nth-child(even) {
+    background-color: rgba(76, 175, 80, 0.1);
+}
+
+#il-calcola-mutuo-tabella-ammortamento tr:hover {
+    background-color: rgba(0, 0, 0, 0.1) !important;
+}
+
+#il-calcola-mutuo-tabella-ammortamento th {
+    font-size: calc(10px + 5%);
+    padding-top: 12px;
+    padding-bottom: 12px;
+    text-align: left;
+    background-color: #4caf50;
+    color: #fff;
+}
